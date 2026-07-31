@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Green Candle Cake — a community-first meme project built one step at a time." />
+  <title>Green Candle Cake</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Green Candle Cake home">
+      <span class="brand-mark">🕯️</span>
+      <span>Green Candle Cake</span>
+    </a>
+    <nav>
+      <a href="#story">Story</a>
+      <a href="#journey">Journey</a>
+      <a href="#community">Community</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Community first · One step at a time</p>
+        <h1>Every green candle deserves cake.</h1>
+        <p class="lead">
+          Green Candle Cake is a community-first meme project built around one
+          recognizable mascot, honest communication, and a journey that grows naturally over time.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="https://pump.fun/coin/7WQDMPKz2LxVdjE6cYwMQyMfsBPzYXD7F37ymGsnpump" target="_blank" rel="noopener noreferrer">View on Pump.fun</a>
+          <a class="button secondary" href="#community">Join the community</a>
+        </div>
+        <div class="contract">
+          <span>Contract address</span>
+          <button id="copy-ca" type="button" data-ca="7WQDMPKz2LxVdjE6cYwMQyMfsBPzYXD7F37ymGsnpump">
+            <code>7WQD...npump</code>
+            <span id="copy-label">Copy</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <img src="assets/green-candle-cake-mascot.png" alt="The smiling Green Candle Cake mascot wearing a chef hat beside a green candle cake." />
+      </div>
+    </section>
+
+    <section class="section" id="story">
+      <div class="section-heading">
+        <p class="eyebrow">Our story</p>
+        <h2>Built differently this time.</h2>
+      </div>
+      <div class="card story-card">
+        <p>
+          This project began as a decision to stop chasing the next launch and start building one recognizable brand with a genuine community.
+          No fake hype, no unrealistic promises, and no rushing the process.
+        </p>
+        <p>
+          The goal is simple: keep improving, stay transparent, and let the journey speak for itself.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="journey">
+      <div class="section-heading">
+        <p class="eyebrow">The journey</p>
+        <h2>Progress over promises.</h2>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <span class="step">01</span>
+          <h3>Identity</h3>
+          <p>A consistent mascot and a clear visual style people can recognize.</p>
+        </article>
+        <article class="card">
+          <span class="step">02</span>
+          <h3>Community</h3>
+          <p>Real conversations, feedback, and gradual growth across X and Telegram.</p>
+        </article>
+        <article class="card">
+          <span class="step">03</span>
+          <h3>Build</h3>
+          <p>A website, community activities, and new adventures for the mascot.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="community">
+      <div class="community-panel">
+        <div>
+          <p class="eyebrow">Community</p>
+          <h2>Be part of the journey.</h2>
+          <p>Follow the story, share your ideas, and help shape what comes next.</p>
+        </div>
+        <div class="actions">
+          <a class="button primary" href="#" aria-label="X profile link placeholder">X / Twitter</a>
+          <a class="button secondary" href="#" aria-label="Telegram link placeholder">Telegram</a>
+        </div>
+      </div>
+      <p class="note">Replace the X and Telegram placeholder links before sharing the website publicly.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Green Candle Cake. Community first. No promises, just progress.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
